@@ -1,0 +1,41 @@
+.baz {
+  width: 100px;
+}
+.centerimg {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+}
+.centerimg a,
+.centerimg div {
+  font-size: 0;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+}
+.centerimg img {
+  vertical-align: middle;
+}
+.centerimg span {
+  font-size: 0;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1px;
+  margin-left: -1px;
+  overflow: hidden;
+}
+.centerimg a,
+.centerimg div {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+}
+.centerimg span {
+  line-height: 300px;
+}
+.centerimg img {
+  max-width: 300px;
+  max-height: 300px;
+  line-height: 300px;
+}

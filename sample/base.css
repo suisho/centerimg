@@ -1,0 +1,37 @@
+.centerimg a,
+.centerimg div {
+  font-size: 0;
+  vertical-align: middle;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.centerimg img {
+  vertical-align: middle;
+}
+.centerimg span {
+  font-size: 0;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1px;
+  margin-left: -1px;
+  overflow: hidden;
+}
+.centerimg_100_100 {
+  width: 100px;
+  height: 100px;
+}
+.centerimg_100_100 a,
+.centerimg_100_100 div {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.centerimg_100_100 span {
+  line-height: 100px;
+}
+.centerimg_100_100 img {
+  max-width: 100px;
+  max-height: 100px;
+  line-height: 100px;
+}

@@ -1,0 +1,47 @@
+centerimg_size(w, h)
+  width: w;
+  height h;
+  a,  // for with link
+  div // for without link
+    width : w;
+    height: h;
+    line-height: h;
+
+  span //dummy spring
+    line-height: h;
+
+  img
+    max-width: w;
+    max-height : h;
+    line-height: h;
+
+centerimg_base()
+  a,  // for with link
+  div // for without link
+    font-size: 0;
+    display:block;
+    vertical-align:middle;
+    text-align:center;
+    text-decoration:none;
+
+  img
+    vertical-align:middle;
+
+  span //dummy spring
+    font-size:0;
+    vertical-align:middle;
+    display:inline-block;
+    width:1px;
+    margin-left:-1px;
+    overflow:hidden;
+.centerimg
+  centerimg_base()
+
+.centerimg_100
+  centerimg_size(100px,100px)
+
+.centerimg_500
+  centerimg_size(500px,500px)
+
+.centerimg_10
+  centerimg_size(10px,10px)
